@@ -51,4 +51,11 @@ public class Clase1Test {
         assertEquals(9, result);
     }
     
+    @Test
+    public void testSuma2(){
+        Clase1 c1 = new Clase1();
+        int result = c1.suma(-4, -8);
+        assertEquals(12, result);
+    }
+    
 }
